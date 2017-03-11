@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="<?php echo get_bloginfo( 'description' ); ?>">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title><?php echo get_bloginfo( 'name' ); ?></title>
+
 
     <!-- Bootstrap -->
     
@@ -17,7 +17,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-<?php wp_head(); ?>
+	<?php wp_head(); ?>
   </head>
   <body>
 <!-- Navbar Start -->
