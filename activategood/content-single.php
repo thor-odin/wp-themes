@@ -3,7 +3,7 @@
 	<p><?php the_date(); ?> by <a href="#"><?php the_author(); ?></a></p>
 </div>
 <div class="row">
-	<div class="col-sm-8">
+	<div class="col-xs-8">
 		<?php if ( has_post_thumbnail() ) { 
 			$post_thumbnail_id = get_post_thumbnail_id();
             $post_thumbnail_url = wp_get_attachment_url( $post_thumbnail_id );?>
@@ -11,7 +11,7 @@
 		<?php } ?>
 		<?php the_content(); ?>
 	</div>
-	<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+	<div class="col-xs-3 col-md-offset-1 blog-sidebar">
 		<h4>Misc stuff go here</h4>
 	</div>
 </div>
